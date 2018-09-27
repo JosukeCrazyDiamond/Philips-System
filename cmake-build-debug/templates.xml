@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<messages>
+    <message id="Wt.Auth.template.logged-in">
+        <div class="Wt-auth-logged-in">
+            Logged in as <b>${user-name}</b> | ${logout}
+        </div>
+    </message>
+
+    <message id="extended.template.registration">
+        <div class="Wt-form Wt-auth-registration">
+            <p>${tr:Wt.Auth.registration-form-info}</p>
+
+            <div class="Wt-fields">
+                <label for="${id:first-name}">
+                    ${first-name-info}
+                </label>
+                ${first-name}
+
+                <label for="${id:last-name}">
+                    ${last-name-info}
+                </label>
+                ${last-name}
+
+                <user-name>
+                <label for="${id:user-name}">
+                    ${tr:email-as-username-label}
+                    ${confirm-is-you class="Wt-info"}
+                </label>
+                ${user-name}
+                </user-name>
+
+                <br></br>
+                <choose-password>
+                <label for="${id:choose-password}">
+                    ${choose-password-info}
+                </label>
+                ${choose-password}
+                    <br></br>
+                <label for="${id:repeat-password}">
+                    ${repeat-password-info}
+                </label>
+                ${repeat-password}
+                </choose-password>
+            </div>
+
+            <div class="Wt-buttons">
+                ${ok-button} ${cancel-button}
+            </div>
+        </div>
+    </message>
+
+</messages>

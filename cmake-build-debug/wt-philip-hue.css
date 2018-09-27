@@ -1,0 +1,142 @@
+.Wt-auth-login{
+    border: 5px solid lawngreen;
+    width: fit-content;
+    margin: auto;
+}
+.modal{
+    background: skyblue;
+    padding: 10px 20px 10px 20px;
+}
+.bridgeWidget {
+    border: 5px solid lawngreen;
+}
+.lightWidget {
+    border: 5px solid coral;
+    width: fit-content;
+    display: table-cell;
+}
+.groupWidget {
+    border: 5px solid blueviolet;
+    width: fit-content;
+    display: table-cell;
+}
+.scheduleWidget {
+    border: 5px solid gold;
+    width: fit-content;
+    display: table-cell;
+}
+
+/*
+ * WSlider
+ */
+
+.Wt-slider-h .Wt-slider-bg {
+    margin: 0 5px;
+}
+
+.Wt-slider-h .Wt-w {
+    position: absolute;
+    top: 50%;
+    left: -1px;
+    width: 100%;
+    height: 8px;
+    margin-top: -5px;
+    background: #eeeeee;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+}
+
+.Wt-slider-h .fill {
+    top: 50%;
+    height: 8px;
+    margin-top: -5px;
+    background: #428bca;
+    border: 1px solid #428bca;
+    border-radius: 4px;
+}
+
+.Wt-slider-h .handle {
+    top: 50% !important;
+    height: 18px !important;
+    margin-top: -10px;
+    color: #333333;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-color: #cccccc;
+    border-radius: 4px;
+}
+
+.Wt-slider-h .handle:hover,
+.Wt-slider-h .handle:focus,
+.Wt-slider-h .handle:active,
+.Wt-slider-h .handle.active,
+.open .dropdown-toggle.Wt-slider-h .handle {
+    color: #333333;
+    background-color: #ebebeb;
+    border-color: #adadad;
+}
+
+.Wt-slider-h .handle:active,
+.Wt-slider-h .handle.active,
+.open .dropdown-toggle.Wt-slider-h .handle {
+    background-image: none;
+}
+
+.Wt-slider-h .handle.disabled,
+.Wt-slider-h .handle[disabled],
+fieldset[disabled] .Wt-slider-h .handle,
+.Wt-slider-h .handle.disabled:hover,
+.Wt-slider-h .handle[disabled]:hover,
+fieldset[disabled] .Wt-slider-h .handle:hover,
+.Wt-slider-h .handle.disabled:focus,
+.Wt-slider-h .handle[disabled]:focus,
+fieldset[disabled] .Wt-slider-h .handle:focus,
+.Wt-slider-h .handle.disabled:active,
+.Wt-slider-h .handle[disabled]:active,
+fieldset[disabled] .Wt-slider-h .handle:active,
+.Wt-slider-h .handle.disabled.active,
+.Wt-slider-h .handle[disabled].active,
+fieldset[disabled] .Wt-slider-h .handle.active {
+    background-color: #ffffff;
+    border-color: #cccccc;
+}
+
+.Wt-slider-h .handle:hover {
+    background-color: #e6e6e6;
+    background-position: 0 -15px;
+}
+
+.Wt-slider-h .handle:active {
+    background-color: #e6e6e6;
+    background-color: #d9d9d9;
+    background-image: none;
+    outline: 0;
+}
+
+/*
+ * WDateEdit and WTimeEdit
+ */
+.Wt-datepicker.dropdown-menu, .Wt-timepicker.dropdown-menu {
+    background: navajowhite;
+    padding: 10px;
+}
+
+.Wt-in-place-edit, .Wt-dateedit, .Wt-timeedit {
+    padding: 2px 10px;
+    margin: 5px 2px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/*
+ * WGoogleMap
+ */
+.Wt-googlemap {
+    margin: 0px 3px;
+    flex: 1 1 auto;
+    position: relative;
+    width: 551px;
+    height: 382px;
+    overflow: hidden;
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<messages>
+    <message id="Wt.Auth.login-form-info">
+        Please login  <br/>
+    </message>
+
+    <message id="wt-philip-hue.userinterfacewidget.title">
+        <h2>This is UI page after user login</h2>
+    </message>
+
+    <message id="wt-philip-hue.mainwidget.title">
+        <h2>WT-Philip-Hue-Connector</h2>
+    </message>
+
+    <message id="first-name-info">
+        <h2>First Name</h2>
+    </message>
+
+    <message id="last-name-info">
+        <h2>Last Name</h2>
+    </message>
+
+    <message id="email-as-username-label">
+        <h2>Email Address</h2>
+    </message>
+</messages>
